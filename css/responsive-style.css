@@ -1,0 +1,790 @@
+/*2000*/
+@media (max-width: 2000px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -35px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -35px;
+    }
+    & .about-frame2 {
+      bottom: -35px;
+    }
+  }
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -35px;
+    }
+    & .token-frame2 {
+      bottom: -33px;
+    }
+  }
+  /*Footer Section*/
+}
+
+/*1900*/
+@media (max-width: 1900px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -31px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -31px;
+    }
+    & .about-frame2 {
+      bottom: -31px;
+    }
+  }
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -31px;
+    }
+    & .token-frame2 {
+      bottom: -32px;
+    }
+  }
+  /*Footer Section*/
+}
+
+/*1800*/
+@media (max-width: 1800px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -30px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -30px;
+    }
+    & .about-frame2 {
+      bottom: -30px;
+    }
+  }
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -30px;
+    }
+    & .token-frame2 {
+      bottom: -29px;
+    }
+  }
+  /*Footer Section*/
+}
+
+/*1650*/
+@media (max-width: 1650px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -27px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -27px;
+    }
+    & .about-frame2 {
+      bottom: -27px;
+    }
+  }
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -27px;
+    }
+    & .token-frame2 {
+      bottom: -27px;
+    }
+  }
+  /*Footer Section*/
+}
+
+/*1500*/
+@media (max-width: 1500px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -25px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -25px;
+    }
+    & .about-frame2 {
+      bottom: -25px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -25px;
+    }
+    & .token-frame2 {
+      bottom: -25px;
+    }
+  }
+  /*Footer Section*/
+}
+
+/*1400*/
+@media (max-width: 1400px) {
+  /*Home Section*/
+  .home {
+    & .banner-top-content {
+      & h1 {
+        font-size: 120px;
+        transition: 0.2s ease;
+      }
+      h2 {
+        font-size: 70px;
+        transition: 0.2s ease;
+
+        & span {
+          font-size: 80px;
+          transition: 0.2s ease;
+        }
+      }
+    }
+    .hero-frame {
+      bottom: -23px;
+    }
+  }
+  /*About Section*/
+  .about {
+    background: url(/images/about/about-vector.svg) no-repeat 110% 100% / auto,
+      var(--bg-color-1);
+
+    & .about-frame1 {
+      top: -23px;
+    }
+    & .about-frame2 {
+      bottom: -23px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -23px;
+    }
+    & .token-frame2 {
+      bottom: -23px;
+    }
+  }
+  /*Footer Section*/
+}
+/*1300*/
+@media (max-width: 1300px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -21px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -21px;
+    }
+    & .about-frame2 {
+      bottom: -21px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -21px;
+    }
+    & .token-frame2 {
+      bottom: -21px;
+    }
+  }
+  /*Footer Section*/
+  .footer {
+    & .social-icons ul li a {
+      padding: 25px 20px;
+    }
+  }
+}
+/*1200*/
+@media (max-width: 1200px) {
+  /*Navbar*/
+  .navbar {
+    text-align: center;
+    background-color: rgb(70, 80, 37);
+  }
+  .navbar .navbar-toggler {
+    color: var(--text-white);
+  }
+  .navbar .nav-link {
+    line-height: 30px;
+    color: var(--text-white);
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  /*Home Section*/
+  .home {
+    & .banner-top-content {
+      & h1 {
+        transition: 0.2s ease;
+        font-size: 100px;
+      }
+      h2 {
+        font-size: 60px;
+        text-shadow: none;
+        -webkit-text-stroke-width: 0;
+        transition: 0.2s ease;
+        -webkit-text-stroke-color: #000;
+        & span {
+          transition: 0.2s ease;
+          font-size: 70px;
+        }
+      }
+    }
+    & .hero-frame {
+      bottom: -20px;
+    }
+  }
+  /*About Section*/
+  .about {
+    background: url(/images/about/about-vector.svg) no-repeat 110% 100% / 60%
+        120%,
+      var(--bg-color-1);
+
+    & .about-des {
+      transition: 0.2s ease;
+      width: 100%;
+
+      & p {
+        transition: 0.2s ease;
+        font-size: 18px;
+      }
+    }
+    & .social-icons {
+      & ul li {
+        & a {
+          transition: 0.2s ease;
+          padding: 26px 20px;
+        }
+      }
+    }
+  }
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & h2 {
+      transition: 0.2s ease;
+      font-size: 150px;
+    }
+
+    & .token-frame1 {
+      top: -19px;
+    }
+    & .token-frame2 {
+      bottom: -19px;
+    }
+  }
+}
+/*Footer Section*/
+.footer {
+  & .footer-top {
+    & ul li a img {
+      width: 110px;
+      transition: 0.2s ease;
+      height: auto;
+    }
+  }
+  & .footer-bottom {
+    & p {
+      transition: 0.2s ease;
+      font-size: 22px;
+      & span {
+        transition: 0.2s ease;
+        font-size: 30px;
+      }
+    }
+    & .social-icons {
+      & ul li a {
+        transition: 0.2s ease;
+        padding: 20px 16px;
+      }
+    }
+  }
+}
+
+/*1100*/
+@media (max-width: 1100px) {
+  .footer {
+    & .footer-bottom {
+      & p {
+        transition: 0.2s ease;
+        font-size: 20px;
+        & span {
+          transition: 0.2s ease;
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}
+/*1050*/
+@media (max-width: 1050px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -18px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -18px;
+    }
+    & .about-frame2 {
+      bottom: -17px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -17px;
+    }
+    & .token-frame2 {
+      bottom: -17px;
+    }
+  }
+  /*Footer Section*/
+}
+/*992*/
+@media (max-width: 992px) {
+  /*Home Section*/
+  .home {
+    transition: 0.2s ease;
+
+    & .banner-top-content {
+      & h1 {
+        transition: 0.2s ease;
+        font-size: 75px;
+      }
+      h2 {
+        transition: 0.2s ease;
+        font-size: 45px;
+        & span {
+          transition: 0.2s ease;
+          font-size: 55px;
+        }
+      }
+    }
+    & .hero-frame {
+      bottom: -16px;
+    }
+  }
+  /*About Section*/
+  .about {
+    transition: 0.2s ease;
+    padding: 70px 5% 70px;
+    background: url(/images/about/about-vector.svg) no-repeat 100% 100% / 100%
+        120%,
+      var(--bg-color-1);
+    & h2 {
+      font-size: 90px;
+      display: inline-flex;
+      width: 100%;
+      transition: 0.2s ease;
+      justify-content: center;
+    }
+    & .about-des {
+      & p {
+        transition: 0.2s ease;
+        font-size: 16px;
+      }
+    }
+    & .social-icons {
+      & ul li {
+        transition: 0.2s ease;
+        margin-right: 40px;
+        & a {
+          transition: 0.2s ease;
+          padding: 22px 16px;
+        }
+      }
+    }
+    & .about-frame1 {
+      top: -17px;
+    }
+    & .about-frame2 {
+      bottom: -17px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    transition: 0.2s ease;
+    padding: 70px 0;
+    & h2 {
+      transition: 0.2s ease;
+      font-size: 100px;
+    }
+    & .token-card {
+      & h3 {
+        transition: 0.2s ease;
+        font-size: 30px;
+      }
+      & p {
+        transition: 0.2s ease;
+        font-size: 36px;
+      }
+    }
+    & .copy-box {
+      & p {
+        transition: 0.2s ease;
+        font-size: 30px;
+      }
+    }
+    & .token-frame1 {
+      top: -15px;
+    }
+    & .token-frame2 {
+      bottom: -16px;
+    }
+  }
+  /*Footer Section*/
+  .footer {
+    & .footer-top {
+      transition: 0.2s ease;
+      padding: 40px 0;
+
+      & ul li a img {
+        transition: 0.2s ease;
+        width: 80px;
+        height: auto;
+      }
+    }
+  }
+}
+/*900*/
+@media (max-width: 900px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -15px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -15px;
+    }
+    & .about-frame2 {
+      bottom: -15px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -14px;
+    }
+    & .token-frame2 {
+      bottom: -15px;
+    }
+  }
+  /*Footer Section*/
+}
+/*850*/
+@media (max-width: 850px) {
+  /*Home Section*/
+  .home {
+    & .hero-frame {
+      bottom: -14px;
+    }
+  }
+  /*About Section*/
+  .about {
+    & .about-frame1 {
+      top: -14px;
+    }
+    & .about-frame2 {
+      bottom: -14px;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & .token-frame1 {
+      top: -13px;
+    }
+    & .token-frame2 {
+      bottom: -14px;
+    }
+  }
+  /*Footer Section*/
+}
+/*768*/
+@media (max-width: 768px) {
+  /*Home Section*/
+  .home {
+    & .banner-top-content {
+      & h1 {
+        transition: 0.2s ease;
+        font-size: 55px;
+      }
+      h2 {
+        font-size: 35px;
+        text-shadow: none;
+        -webkit-text-stroke-width: 0;
+        transition: 0.2s ease;
+        -webkit-text-stroke-color: #000;
+
+        & span {
+          transition: 0.2s ease;
+          font-size: 40px;
+        }
+      }
+    }
+    & .hero-frame {
+      transition: 0.2s ease;
+      display: none;
+    }
+  }
+  /*About Section*/
+  .about {
+    transition: 0.2s ease;
+    padding: 20px 0 50px;
+    background: url(/images/about/about-vector.svg) no-repeat 0 0 / 0 0,
+      var(--bg-color-1);
+    & .about-frame1 {
+      transition: 0.2s ease;
+      display: none;
+    }
+    & .about-img-warpper img {
+      transition: 0.2s ease;
+      max-width: 45%;
+    }
+    & .about-frame2 {
+      transition: 0.2s ease;
+      display: none;
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    transition: 0.2s ease;
+    padding: 30px 0 30px;
+    & h2 {
+      transition: 0.2s ease;
+      font-size: 85px;
+    }
+    & .token-card {
+      & p {
+        transition: 0.2s ease;
+        font-size: 32px;
+      }
+      & h3 {
+        transition: 0.2s ease;
+        font-size: 28px;
+      }
+    }
+    & .token-frame1 {
+      transition: 0.2s ease;
+      display: none;
+    }
+    & .token-frame2 {
+      display: none;
+      transition: 0.2s ease;
+    }
+  }
+  /*Footer Section*/
+  .footer {
+    & .footer-top {
+      & h3 {
+        transition: 0.2s ease;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+/*550*/
+@media (max-width: 550px) {
+  /*Home Section*/
+  .home {
+    transition: 0.2s ease;
+
+    & .banner-top-content {
+      & h1 {
+        transition: 0.2s ease;
+        font-size: 45px;
+      }
+      h2 {
+        transition: 0.2s ease;
+        font-size: 30px;
+        text-shadow: none;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color: #000;
+
+        & span {
+          transition: 0.2s ease;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  /*About Section*/
+  .about {
+    & .social-icons {
+      & ul li {
+        & a {
+          transition: 0.2s ease;
+          padding: 20px 10px;
+        }
+      }
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & h2 {
+      transition: 0.2s ease;
+      font-size: 70px;
+    }
+    & .token-card {
+      & p {
+        font-size: 30px;
+        transition: 0.2s ease;
+      }
+      & h3 {
+        transition: 0.2s ease;
+        font-size: 26px;
+      }
+    }
+    & .copy-box p {
+      transition: 0.2s ease;
+      font-size: 28px;
+    }
+  }
+  /*Footer Section*/
+  .footer {
+    & .footer-top {
+      & h3 {
+        transition: 0.2s ease;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+/*450*/
+@media (max-width: 450px) {
+  /*Home Section*/
+  .home {
+    transition: 0.2s ease;
+    padding-top: 110px;
+    & .banner-top-content {
+      & h1 {
+        transition: 0.2s ease;
+        font-size: 40px;
+      }
+      h2 {
+        transition: 0.2s ease;
+        font-size: 25px;
+        text-shadow: none;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color: #000;
+
+        & span {
+          transition: 0.2s ease;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  /*About Section*/
+  .about {
+    & h2 {
+      transition: 0.2s ease;
+      font-size: 70px;
+    }
+    & .social-icons {
+      & ul li {
+        & a {
+          transition: 0.2s ease;
+          padding: 15px 8px;
+
+          & img {
+            transition: 0.2s ease;
+            width: 35px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  /*Tokenomics Section*/
+  .tokenomic-sec {
+    & h2 {
+      transition: 0.2s ease;
+      font-size: 60px;
+    }
+  }
+  /*Footer Section*/
+  .footer {
+    & .footer-top {
+      & h3 {
+        margin-bottom: 25px;
+        transition: 0.2s ease;
+        font-size: 45px;
+      }
+      & .footer-top-icon {
+        & ul li {
+          margin-right: 50px;
+          a img {
+            width: 50px;
+            transition: 0.2s ease;
+            transition: 0.2s ease;
+            height: auto;
+          }
+        }
+      }
+    }
+    & .footer-bottom {
+      & p {
+        transition: 0.2s ease;
+        font-size: 16px;
+
+        & span {
+          transition: 0.2s ease;
+          font-size: 20px;
+        }
+      }
+      & .social-icons ul li a img {
+        width: 25px;
+        transition: 0.2s ease;
+        height: 25px;
+      }
+    }
+  }
+}
